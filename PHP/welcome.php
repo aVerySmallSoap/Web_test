@@ -28,9 +28,9 @@ if(!$obj->sanitize($username, $email, $password)){
         <div id="navigation-content">
             <ul class="content">
                 <li id="nav-title">Some Random Title</li>
-                <a href="" class="item-click"><li class="item">Home</li></a>
-                <a href="" class="item-click"><li class="item">Store</li></a>
-                <a href="" class="item-click"><li class="item">About Us</li></a>
+                <a href="" class="item-click"><li class="item">Dashboard</li></a>
+                <a href="" class="item-click"><li class="item">Settings</li></a>
+                <a href="" class="item-click"><li class="item">Log-out</li></a>
             </ul>
         </div>
     </div>

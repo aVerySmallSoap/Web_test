@@ -21,6 +21,10 @@
     src: url("../Resources/Fonts/Poppins-Italic.ttf");
 }
 
+html{
+    height: 100%;
+}
+
 body{
     background-image: linear-gradient(var(--secondary-accent),var(--secondary));
     background-repeat: no-repeat;
