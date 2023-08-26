@@ -9,7 +9,6 @@ if($obj->sanitize($_POST["username"], $_POST["password"], $_POST["email"])){
 }else{
     header("Location: ./PHP/registration.php");
 }
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -27,7 +26,7 @@ if($obj->sanitize($_POST["username"], $_POST["password"], $_POST["email"])){
 
     <div class="hidden-body">
         <div class="hidden-content">
-            <a href="https://www.youtube.com/"><img src="./Images/home.png" width="32" height="32" alt="Home"></a>
+            <a href="#"><img src="./Images/home.png" width="32" height="32" alt="Home"></a>
         </div>
     </div>
 
