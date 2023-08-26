@@ -1,8 +1,3 @@
-<?php
-
-    $GLOBALS['flag'] = true;
-
-?>
 <!doctype html>
 <html lang="en">
 <head>

@@ -1,7 +1,7 @@
 #hidden{
     position: fixed;
     background-color: white;
-    left: 58svw;
+    left: 55svw;
     top: 44svh;
     padding: 20px;
     border-radius: 0 25px 25px 0;
@@ -9,6 +9,8 @@
     box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
     visibility: hidden;
     z-index: -1;
+    width: 20%;
+    overflow-y: hidden;
 }
 
 .content-title{
@@ -21,7 +23,19 @@
 
     }
     100%{
-        transform: translateX(120px);
+        transform: translateX(40%);
         visibility: visible;
     }
+}
+
+.hidden-content{
+    overflow-wrap: break-word;
+}
+
+.email{
+    text-decoration: underline black 1px;
+}
+
+.password{
+    text-decoration: underline black 1px;
 }

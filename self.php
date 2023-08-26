@@ -65,8 +65,8 @@ if(isset($_POST["username"], $_POST["email"], $_POST["password"])){
     <div id="hidden">
         <div class="hidden-content">
             <span class="content-title">Hello, <?php echo $username?>!</span><br>
-            <span class="content-email">Email: <?php echo $email?></span><br>
-            <span class="content-password">Password: <?php echo $password?></span><br>
+            <span class="content">Email: <span class="email"><?php echo $email?></span></span><br>
+            <span class="content">Password: <span class="password"><?php echo $password?></span></span><br>
         </div>
     </div>
 </div>

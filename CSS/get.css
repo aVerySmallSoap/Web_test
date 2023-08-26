@@ -1,0 +1,39 @@
+#navigation-container{
+    background-color: var(--secondary-accent);
+}
+
+.directive{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+.form-row ~ .get-page{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-dash{
+    margin-left: 6svw;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-dash:hover{
+    background-color: limegreen;
+}
+
+#container-inform-holder{
+    background-color: var(--primary);
+}
+
+#container-left{
+    background-color: var(--primary-accent);
+}
+
+.item-get{
+    margin-left: 50px;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

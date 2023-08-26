@@ -4,11 +4,9 @@ $obj = new Sanitizer();
 $username = $_POST["username"];
 $password = $_POST["password"];
 $email = $_POST["email"];
-
 if(!$obj->sanitize($username, $email, $password)){
     header("Location: ../index.php");
 }
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,25 +15,21 @@ if(!$obj->sanitize($username, $email, $password)){
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/welcome.css">
-    <title>Welcome <?php echo $username?></title>
+    <title>Welcome <?php echo $username?>!</title>
 </head>
 <body>
-
     <div id="navigation-container">
         <div id="navigation-content">
             <ul class="content">
                 <li id="nav-title">Information Management System</li>
                 <a href="" class="item-click"><li class="item">Dashboard</li></a>
                 <a href="" class="item-click"><li class="item">Settings</li></a>
-                <a href="" class="item-click logout"><li class="item">Log-out</li></a>
+                <a href="../index.php" class="item-click logout"><li class="item">Log-out</li></a>
             </ul>
         </div>
     </div>
-
-
     <div id="container">
         <div id="container-header">
             <span id="title">User Information</span>
@@ -61,15 +55,10 @@ if(!$obj->sanitize($username, $email, $password)){
             </div>
         </div>
         <div id="container-left">
-            INSERT PICTURE HERE
+            <!-- Insert some code or other information-->
         </div>
     </div>
-
-
-
-
     <script src="../JS/welcome.js"></script>
-
 </body>
 </html>
 
