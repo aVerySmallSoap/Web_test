@@ -20,9 +20,9 @@
 
 <div id="container">
     <div id="container-header">
-        <span class="title">Log-in</span>
+        <span class="title">Log-in <sup style="font-size: 10px;">using self</sup></span>
         <div id="container-form">
-            <form action="./PHP/welcome.php" method="post" class="form-main">
+            <form action="<?php echo $_SERVER["PHP_SELF"]?>" method="post" class="form-main">
                 <div class="form-body">
                     <div class="form-row">
                         <label for="username-field" class="form-label">Username:</label><br>
@@ -47,6 +47,15 @@
         </div>
     </div>
 </div>
+
+<?php
+
+if(isset($_POST["username"], $_POST["email"], $_POST["password"])){
+    echo $_POST["username"];
+    echo $_POST["email"];
+    echo $_POST["password"];
+}
+?>
 
 <script src="./JS/index.js"></script>
 </body>
