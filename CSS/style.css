@@ -1,0 +1,61 @@
+:root {
+    --container-margin-h: 25svh;
+    --container-margin-w: 35svw;
+    --container-border-rad: 25px;
+    --primary: #96B6C5;
+    --primary-accent: #ADC4CE;
+    --secondary: #EEE0C9;
+    --secondary-accent: #F1F0E8;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../Resources/Fonts/Poppins.ttf");
+}
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../Resources/Fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "Poppins Italic";
+    src: url("../Resources/Fonts/Poppins-Italic.ttf");
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#navigation-container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+}
+
+#navigation-content{
+    flex-grow: 1;
+}
+
+#nav-title{
+    display: flex;
+    padding: 15px;
+}
+
+.content{
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.item{
+    margin-left: 50px;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item-click{
+    text-decoration: none;
+    color: inherit;
+}
