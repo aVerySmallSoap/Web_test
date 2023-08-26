@@ -56,9 +56,11 @@ body{
     display: flex;
     justify-content: center;
     border-radius: var(--container-border-rad);
-    margin: var(--container-margin-h) var(--container-margin-w) 19dvh var(--container-margin-w);
+    margin: var(--container-margin-h) var(--container-margin-w) 0 var(--container-margin-w);
     box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
     transition-delay: 5s;
+    flex-grow: 2;
+    z-index: 1;
 }
 
 #container:hover{

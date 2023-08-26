@@ -1,0 +1,27 @@
+#hidden{
+    position: fixed;
+    background-color: white;
+    left: 58svw;
+    top: 44svh;
+    padding: 20px;
+    border-radius: 0 25px 25px 0;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
+    visibility: hidden;
+    z-index: -1;
+}
+
+.content-title{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+@keyframes slide-in {
+    0%{
+
+    }
+    100%{
+        transform: translateX(120px);
+        visibility: visible;
+    }
+}
