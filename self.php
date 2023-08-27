@@ -72,7 +72,6 @@ if(isset($_POST["username"], $_POST["email"], $_POST["password"])){
 </div>
 
 <script src="./JS/index.js"></script>
-<script src="./JS/self.js"></script>
 
 </body>
 </html>
