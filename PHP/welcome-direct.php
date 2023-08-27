@@ -21,8 +21,8 @@
     <div id="navigation-content">
         <ul class="content">
             <li id="nav-title">Information Management System</li>
-            <a href="" class="item-click"><li class="item-get">Dashboard</li></a>
-            <a href="" class="item-click"><li class="item-get">Settings</li></a>
+            <a href="#" class="item-click"><li class="item-get">Dashboard</li></a>
+            <a href="#" class="item-click"><li class="item-get">Settings</li></a>
             <a href="../get.php" class="item-click logout"><li class="item-get">Log-out</li></a>
         </ul>
     </div>

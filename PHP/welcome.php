@@ -24,8 +24,8 @@ if(!$obj->sanitize($username, $email, $password)){
         <div id="navigation-content">
             <ul class="content">
                 <li id="nav-title">Information Management System</li>
-                <a href="" class="item-click"><li class="item">Dashboard</li></a>
-                <a href="" class="item-click"><li class="item">Settings</li></a>
+                <a href="#" class="item-click"><li class="item">Dashboard</li></a>
+                <a href="#" class="item-click"><li class="item">Settings</li></a>
                 <a href="../index.php" class="item-click logout"><li class="item">Log-out</li></a>
             </ul>
         </div>
